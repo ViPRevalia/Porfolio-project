@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(90, 80, 133);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space space-around;
+            align-items: center;
+            height:57px;
+            color: rgb(91, 80, 126);
+            background-color: azure;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+            margin: 479px
+        }
+        nav ul li{
+            
+            list-style: none;
+            margin:23px ;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: rgb(103, 103, 232);
+        }
+        nav ul li a:hover{
+            color: rgb(72, 72, 114);
+        }
+        .left{
+            font-size: 2rem;
+
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 90px;
+            width: 90%;
+        }
+        .leftsection{
+            font-size: 3rem;
+         
+
+        }
+        .rightsection{
+            margin: 63px;
+        
+        }
+        .rightsection img{
+            width: 411px;
+            height: 279px;
+            margin: -60px;
+        }
+        .purple{
+            color: rgb(196 179 224 / 56%);
+        }
+        #element{
+            
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+        }
+        .secondsection h1{
+            font-size: 20px;
+        }
+        .text-grey{
+            color: rgb(196 179 224 / 56%);
+            font-size: 14px;
+        }
+        .break{
+            background: rgb(87, 87, 140);
+
+            height: 2px;
+        }
+       .secondsection .box{
+        background: rgb(196 179 224 / 56%);       
+       height:226px;
+       margin: 15px;
+        display: flex;
+       }
+       .secondsection .vertical{
+        height: 165px;
+        width: 292px;
+        margin: 18px;
+        background-color: grey
+       }
+       .secondsection .vertical img{
+        height: 165px;
+    width: 248px;
+    margin: 0px;
+       }
+       .secondsection .box .bd{
+        color: blue;
+        position: relative;
+        top: 84%;
+        right: 17%
+       }
+    footer{
+        display: flex;
+        background-color:  rgb(143 117 158);        
+        height: 136px;
+        position:relative;
+        top: -10px;
+
+    }
+    .flex{
+        display: flex;
+        padding: 5px 129px;
+        justify-content: space-evenly;
+
+    }
+    .flex ul{
+        list-style: none;
+   
+    }
+    .flex >ul{
+        width: 223px;
+    }
+    
+    .first{
+    padding: 4px 60px;}
+ .second{
+    padding: 4px 60px;
+ }
+ .third{padding: 4px 60px;}
+    .fourth{
+        padding: 4px 60px;
+    }
+     .footer-right{
+        text-align: center;
+        color: #bfabab;
+        padding: 0px 0px;
+    }
+    .button{    padding: 6px;
+        margin: 3px;
+
+    }
+  .button .btn{
+    color: white;
+    background-color:rgb(90, 80, 133);
+    font-size: 18px;
+    padding: 2px;
+    margin: 2px;
+    border: 2px solid white;
+}
+  
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">ViPRevalia                              </div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+               <li><a href="/"> About</a></li>
+               <li><a href="/">Services</a></li>
+               <li><a href="/">Projects</a></li>
+               <li><a href="/">Contact Me</a></li>
+            </ul>
+        </nav>
+        
+               
+                
+                
+              
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hii, I am <span class="purple">Vishal</span> <br>
+                                  I am a passionate <br>
+                                  <span id="element"></span>
+                                  <div class="button">
+                                 <button class="btn">Download Resume</button>
+                                 <button class="btn">Github</button>
+                                
+                                </div>
+            </div>
+           
+            <div class="rightsection"><img src="port.jpeg" alt=""></div>
+        </section>
+        <hr class="break">
+        <br>
+       <section class="secondsection">
+        <span class="text-grey">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+            <div class="vertical"><img src="web.jpeg" alt="Begginer developer"></div> 
+            <div class="bd">Begineer developer</div>
+            <div class="vertical"><img src="web2.jpeg" alt="Advanced"></div>
+            <div class="bd">Advanced developer</div>
+            <div class="vertical"><img src="vd.jpeg" alt="Video Editor"></div>
+            <div class="bd">Video Editor</div>
+          
+
+        </div>
+       </section>
+    </main>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="flex">
+            <div class="first">ViP Revalia is a portfolio developer</div>
+            <div class="second">
+                <ul>
+                  <li>Delhi,India</li>
+                  <li>+91 9394839349</li>
+                  <li>viprevalia@gmail.com</li>
+                 
+                </ul>
+            </div>
+        
+           
+        </div>
+
+    </footer>
+    <div class="footer-right">coyright &#169; ViPPortfolio.com | All rights reserved</div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['web developer','and Video Editor'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
